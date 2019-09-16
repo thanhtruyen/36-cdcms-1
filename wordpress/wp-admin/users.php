@@ -564,7 +564,6 @@ if ( strlen( $usersearch ) ) {
 ?>
 
 <hr class="wp-header-end">
-
 		<?php $wp_list_table->views(); ?>
 
 <form method="get">

@@ -389,6 +389,7 @@ class WP_List_Table {
 	 * @since 3.1.0
 	 */
 	public function views() {
+            
 		$views = $this->get_views();
 		/**
 		 * Filters the list of available list table views.
@@ -413,6 +414,7 @@ class WP_List_Table {
 			$views[ $class ] = "\t<li class='$class'>$view";
 		}
 		echo implode( " |</li>\n", $views ) . "</li>\n";
+                //echo "<li class='$class'><a href='#'>| Google User</a></li>";
 		echo '</ul>';
 	}
 
