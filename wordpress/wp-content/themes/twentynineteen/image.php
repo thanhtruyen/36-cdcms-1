@@ -85,7 +85,6 @@ get_header();
 				the_post_navigation(
 					array(
 						'prev_text' => _x( '<span class="meta-nav">Published in</span><br><span class="post-title">%title</span>', 'Parent post link', 'twentynineteen' ),
-					)
 				);
 
 				// If comments are open or we have at least one comment, load up the comment template.

@@ -2676,7 +2676,7 @@ var memize_default = /*#__PURE__*/__webpack_require__.n(memize);
 
     event.preventDefault();
     window.wp.data.dispatch('core/block-editor').insertBlock(window.wp.blocks.createBlock('core/paragraph', {
-      content: 'ğŸ¡ğŸ¢ğŸ¦€ğŸ¤ğŸ¦‹ğŸ˜ğŸ§ğŸ¹ğŸ¦ğŸ¦„ğŸ¦ğŸ¼ğŸ¿ğŸƒğŸ´ğŸğŸ†ğŸ¦•ğŸ¦”ğŸŒ±ğŸ‡Ï€ğŸŒğŸ‰ğŸ’§ğŸ¥¨ğŸŒŒğŸ‚ğŸ ğŸ¥¦ğŸ¥šğŸ¥ğŸŸğŸ¥¥ğŸ¥’ğŸ›µğŸ¥–ğŸ’ğŸ¯ğŸ¾ğŸ²ğŸºğŸšğŸ®âŒ›ï¸'
+      content: 'ğŸ?¡ğŸ?¢ğŸ¦€ğŸ?¤ğŸ¦‹ğŸ?˜ğŸ?§ğŸ?¹ğŸ¦?ğŸ¦„ğŸ¦?ğŸ?¼ğŸ?¿ğŸƒğŸ?´ğŸ??ğŸ?†ğŸ¦•ğŸ¦”ğŸŒ±ğŸ?‡Ï€ğŸ?ŒğŸ?‰ğŸ’§ğŸ¥¨ğŸŒŒğŸ?‚ğŸ? ğŸ¥¦ğŸ¥šğŸ¥?ğŸŸğŸ¥¥ğŸ¥’ğŸ›µğŸ¥–ğŸ?’ğŸ?¯ğŸ¾ğŸ²ğŸ?ºğŸ?šğŸ?®âŒ›ï¸?'
     }));
   }
 });
@@ -3217,7 +3217,7 @@ function HeaderToolbar(_ref) {
     position: "bottom right"
   }), Object(external_this_wp_element_["createElement"])(external_this_wp_nux_["DotTip"], {
     tipId: "core/editor.inserter"
-  }, Object(external_this_wp_i18n_["__"])('Welcome to the wonderful world of blocks! Click the â€œ+â€ (â€œAdd blockâ€) button to add a new block. There are blocks available for all kinds of content: you can insert text, headings, images, lists, and lots more!'))), Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["EditorHistoryUndo"], null), Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["EditorHistoryRedo"], null), Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["TableOfContents"], {
+  }, Object(external_this_wp_i18n_["__"])('Welcome to the wonderful world of blocks! Click the â€œ+â€? (â€œAdd blockâ€?) button to add a new block. There are blocks available for all kinds of content: you can insert text, headings, images, lists, and lots more!'))), Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["EditorHistoryUndo"], null), Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["EditorHistoryRedo"], null), Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["TableOfContents"], {
     hasOutlineItemsDisabled: isTextModeEnabled
   }), Object(external_this_wp_element_["createElement"])(external_this_wp_blockEditor_["BlockNavigationDropdown"], {
     isDisabled: isTextModeEnabled

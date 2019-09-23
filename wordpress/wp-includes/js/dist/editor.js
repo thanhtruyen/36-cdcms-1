@@ -9197,7 +9197,7 @@ function (_Component) {
       /* translators: accessibility text */
       Object(external_this_wp_i18n_["__"])('(opens in a new tab)')), Object(external_this_wp_element_["createElement"])(external_this_wp_nux_["DotTip"], {
         tipId: "core/editor.preview"
-      }, Object(external_this_wp_i18n_["__"])('Click “Preview” to load a preview of this page, so you can make sure you’re happy with your blocks.')));
+      }, Object(external_this_wp_i18n_["__"])('Click “Preview�? to load a preview of this page, so you can make sure you’re happy with your blocks.')));
     }
   }]);
 
@@ -9815,7 +9815,7 @@ function (_Component) {
         ref: this.buttonNode
       }, componentProps), componentChildren, Object(external_this_wp_element_["createElement"])(external_this_wp_nux_["DotTip"], {
         tipId: "core/editor.publish"
-      }, Object(external_this_wp_i18n_["__"])('Finished writing? That’s great, let’s get this published right now. Just click “Publish” and you’re good to go.')));
+      }, Object(external_this_wp_i18n_["__"])('Finished writing? That’s great, let’s get this published right now. Just click “Publish�? and you’re good to go.')));
     }
   }]);
 
