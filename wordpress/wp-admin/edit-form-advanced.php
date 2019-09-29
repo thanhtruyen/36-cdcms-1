@@ -219,6 +219,7 @@ if ( 'auto-draft' == $post->post_status ) {
 	}
 	$autosave    = false;
 	$form_extra .= "<input type='hidden' id='auto_draft' name='auto_draft' value='1' />";
+        
 } else {
 	$autosave = wp_get_post_autosave( $post_ID );
 }
@@ -420,6 +421,7 @@ if ( isset( $post_new_file ) && current_user_can( $post_type_object->cap->create
 	</p>
 </div>
 <form name="post" action="post.php" method="post" id="post"
+      
 <?php
 /**
  * Fires inside the post editor form tag.
@@ -439,6 +441,7 @@ $referer = wp_get_referer();
 <input type="hidden" id="originalaction" name="originalaction" value="<?php echo esc_attr( $form_action ); ?>" />
 <input type="hidden" id="post_author" name="post_author" value="<?php echo esc_attr( $post->post_author ); ?>" />
 <input type="hidden" id="post_type" name="post_type" value="<?php echo esc_attr( $post_type ); ?>" />
+
 <input type="hidden" id="original_post_status" name="original_post_status" value="<?php echo esc_attr( $post->post_status ); ?>" />
 <input type="hidden" id="referredby" name="referredby" value="<?php echo $referer ? esc_url( $referer ) : ''; ?>" />
 <?php if ( ! empty( $active_post_lock ) ) { ?>
@@ -485,9 +488,13 @@ do_action( 'edit_form_top', $post );
 	 * @param WP_Post $post Post object.
 	 */
 	$title_placeholder = apply_filters( 'enter_title_here', __( 'Add title' ), $post );
+        $email_placeholder = apply_filters( 'enter_email_here', __( 'Add email' ), $post );
 	?>
 	<label class="screen-reader-text" id="title-prompt-text" for="title"><?php echo $title_placeholder; ?></label>
 	<input type="text" name="post_title" size="30" value="<?php echo esc_attr( $post->post_title ); ?>" id="title" spellcheck="true" autocomplete="off" />
+        
+        <label class="screen-reader-text" id="title-prompt-text" for="title"><?php echo $email_placeholder; ?></label>
+	<input type="text" name="post_email" size="30" value="<?php echo esc_attr( $post->post_email ); ?>" id="email" spellcheck="true" autocomplete="off" />
 </div>
 	<?php
 	/**
