@@ -1,11 +1,11 @@
 body{
-    width: 800px;
+    width: 100%;
     padding: 0 0 20px;
     margin: 0;
 }
 .header{
     background: red;
-    
+    text-align: center;
     padding: 20px;
 }
 .footer{
@@ -24,13 +24,4 @@ main h2 a,main h2 a:visited{
 main h2{
     position: relative;
     padding-left: 10px;
-}
-main h2::after{
-    content: "";
-    background: red;
-    width: 3px;
-    height: 90%;
-    position: absolute;
-    left: 0;
-    transform: rotate(20deg);
 }
